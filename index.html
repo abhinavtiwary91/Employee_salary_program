@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Employee Salary Program</title>
+  <style>
+.control
+{
+align-items: center;
+justify-content: center;
+margin:auto;
+margin-top: 40px;
+border: 3px solid red;
+padding: 50px;
+background-color:beige;
+width:max-content;
+}
+body{
+ background-color: aqua;
+}
+.button{
+background-color: #15AAD7;
+color: white;
+padding: 5px;
+border: solid 2px #0F7391;
+margin: 5px;
+}
+</style>
+</head>
+ <body>
+            <div class="control">
+            <h1>Employee Salary Calculator</h1>
+            <form  class="form" action="/calculate" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required><br><br>
+            <label for="Designation">designation:</label>
+            <input type="text" name="Designation" required><br><br>
+        
+                <label for="hoursWorked">Hours Worked:</label>
+                <input type="number" name="hoursWorked" required><br><br>
+                
+                <label for="hourlyRate">Hourly Rate:</label>
+                <input type="number" name="hourlyRate" required><br><br>
+                
+                <button type="submit">Calculate Salary</button>
+            </form>
+            </div>
+        </body>
+        </html>
