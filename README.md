@@ -7,30 +7,24 @@ This experiment aimed to calculate the salary of employee
 
 1. install node js
 2. install express js
+ Introduction
+This project aims to provide a basic employee salary management system using a RESTful API built with Node.js and Express.js. It allows the user to manage employee details and their salaries.
+
+Features
+Get a list of all employees
+Get employee details by ID
+Add a new employee
+Update employee details
+Delete an employee
+Installation
 
 
-## Results
+Start the server:
 
-The results of the experiment are as follows:
-
-- Metric 1: ...
-- Metric 2: ...
-
-## Conclusion
-
-In this experiment, we observed ...
-
-## How to Run
-
-Follow these steps to run the experiment:
-
-1. ...
-
-## Contributors
-
-- Your Name
-- Any other contributors
-
+bash
+Copy code
+node server.js
+The server will start at http://localhost:5500.
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Abhinav](LICENSE).
